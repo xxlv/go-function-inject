@@ -1,5 +1,17 @@
-# 测试延迟注入
+# Function Inject tool
 
-## 时延和cpu占用注入
+## Install
+
+go get github.com/xxlv/go-function-inject@v1.0.0
+
+## Use
+
+```go 
+    // mock function cost 10MB mem
+	f := &FunctionInject{CostMem: 10 * MB}
+	f.Run()
+
+```
+
 
 
