@@ -2,7 +2,7 @@
 
 ## Install
 
-go get github.com/xxlv/go-function-inject@v1.0.0
+`go get github.com/xxlv/go-function-inject@v1.0.0`
 
 ## Use
 
